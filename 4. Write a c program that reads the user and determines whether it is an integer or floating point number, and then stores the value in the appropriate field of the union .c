@@ -1,4 +1,4 @@
-#include <stdio.h>
+include <stdio.h>
 #include <stdlib.h>
 #include <ctype.h>
 
@@ -19,7 +19,7 @@ int main() {
             break;
         }
     }
-    if (is_float) {
+    if (is_float) {#
         sscanf(input, "%f", &data.floating_point);
     } else {
         sscanf(input, "%d", &data.integer);
